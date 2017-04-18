@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+/*统一设置*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px;
+	color: #000000;
+	font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*网页头部*/
+#header {
+	width: 960px;
+	height: 70px;
+	margin: 0 auto;	
+}
+
+#header img {
+	display: block;
+}
+
+/*导航栏*/
+#nav {
+	height: 50px;
+	line-height: 50px;
+	background: #47A3DA;
+	min-width: 960px;
+	margin: 0 auto;	
+}
+
+#nav ul {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#nav ul li {
+	width: 160px;
+	height: 50px;
+	float: left;
+	text-align: center;
+}
+
+#nav ul li a {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 3px;
+	display: block;
+}
+
+#nav ul li a:hover {
+	color: #47A3DA;
+	background: #e6f2fa;
+}
+
+/*当前页的导航链接高亮*/
+.active {
+	background: #0068b7;
+}
+
+/*主内容区*/
+#main {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+/*左侧边栏*/
+#aside {
+	width: 220px;
+	min-height: 500px;
+	float: left;
+	color: #666666;
+}
+
+/*公司简介导航链接*/
+#aside #list h3 {
+	line-height: 35px;
+	font-size: 16px;
+	background: #47a3da;
+	color: #ffffff;
+	text-align: center;
+	font-weight: 500;
+	letter-spacing: 3px;
+}
+
+#aside #list ul li {
+	text-align: center;
+	line-height: 40px;
+	border-bottom: 1px dotted #000;
+}
+
+#aside #list ul li a {
+	color: #666666;
+	font-size: 14px;
+	display: block;
+}
+
+#aside #list ul li a:hover {
+	color: #ffffff;
+	background: #47a3da;
+}
+
+/*全国服务支持*/
+#aside #address {
+	background: #eeeeee;
+	padding: 10px;
+	text-align: center;
+}
+
+#aside #address h3 {
+	line-height: 30px;
+	font-size: 16px;
+	border-bottom: 1px solid green;
+}
+
+#aside #address ul li {
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.icon-tel,.icon-msg {
+	position: relative;
+	top:3px;
+	margin-right: 2px;
+}
+
+/*右侧内容区*/
+#contents {
+	width: 720px;
+	min-height: 400px;
+	float: right;
+	font-size: 14px;	
+}
+
+#contents h4 {
+	line-height: 35px;
+	font-weight: 300;
+	border-bottom: 3px solid #47a3da;
+}
+
+#contents .sub-banner {
+	display: block;
+	padding: 5px 0;
+	border-bottom: 3px solid #47a3da;
+}
+
+/*文章区*/
+#contents #wenzhang {
+	color: #333333;
+}
+
+#contents #wenzhang h1 {
+	line-height: 60px;
+	text-align: center;
+}
+
+#contents #box {
+	width: 580px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#contents #box dl {
+	width: 250px;
+	margin: 20px;
+	float: left;
+}
+
+#contents #box dl dt img {
+	display: block;
+}
+
+#contents #box dl dd {
+	width: 230px;
+	line-height: 30px;
+	background: #ccc;
+	color: #444;
+	text-align: center;
+	margin: 0 auto;
+	border-bottom: 3px solid orange;
+}
+
+/*网页底部*/
+#footer {
+	height: 150px;
+	background: #4b4b4b;
+	color: #ffffff;
+	padding: 20px;
+}
+
+#footer .wrap {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+} 
+
+#footer .wrap dl {
+	width: 320px;
+	float: left;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+#footer .wrap dl dt {
+	font-weight: bold;
+}
